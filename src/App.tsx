@@ -1,10 +1,4 @@
-// import './App.css';
-// import State from './component/State';
-// // import Button from './component/Button';
-// // import Hello from './component/Hello';
-// // import Welcome from './component/Welcome';
-// // import styles from './App.module.css';
-
+import React from 'react';
 import DayList from "./pages/DayList";
 import Header from "./pages/Header";
 import Day from "./pages/Day";
@@ -13,7 +7,7 @@ import EmptyPage from "./pages/EmptyPage";
 import CreateWord from "./pages/CreateWord";
 import CreateDay from "./pages/CreateDay";
 
-const App = () => {
+function App() {
 
   return (
 		<BrowserRouter>
