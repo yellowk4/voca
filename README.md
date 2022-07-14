@@ -1,6 +1,6 @@
 # Demo
 
-[토익 영단어 예제](https://github.com/yellowk4/voca)
+[토익 영단어 예제](https://yellowk4.github.io/voca/)
 
 -------------------------------------------------------------
 
