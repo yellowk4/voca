@@ -8,13 +8,15 @@
 
 - bash 에서 아래 구문 실행
 
-	`$ json-server --watch ./src/db/data.json --port 3030` 
+	``` bash
+	$ json-server --watch ./src/db/data.json --port 3030
+	```
 
-```
-[서버 확인 링크1](http://localhost:3030/days)
+- 구동 확인
 
-[서버 확인 링크2](http://localhost:3030/words)
-```
+	[서버 확인 링크1](http://localhost:3030/days)
+	
+	[서버 확인 링크2](http://localhost:3030/words)
 
 **Note: 서버 구동 후 확인 하세요!**
 
