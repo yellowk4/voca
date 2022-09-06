@@ -9,7 +9,7 @@
 - bash 에서 아래 구문 실행
 
 	``` bash
-	$ json-server --watch ./src/db/data.json --port 3030
+	$ npx json-server --watch ./src/db/data.json --port 3030
 	```
 
 - 구동 확인
