@@ -15,10 +15,6 @@ export default function CreateWord() {
 	function onSubmit(e: React.FormEvent) {
 		e.preventDefault();
 
-		// console.log(engRef.current.value);
-		// console.log(korRef.current.value);
-		// console.log(dayRef.current.value);
-
 		if(!isLoading
 				&& dayRef.current
 				&& engRef.current
@@ -50,10 +46,6 @@ export default function CreateWord() {
 				}
 			});
 		}
-
-
-		
-
 	}
 
 	const engRef = useRef<HTMLInputElement>(null);

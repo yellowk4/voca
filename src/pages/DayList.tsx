@@ -9,39 +9,6 @@ export interface IDay {
 }
 
 export default function DayList() {
-	// console.log(dummy);
-	
-	//const [count, setCount] = useState(0);
-
-	// function onClick() {
-	// 	setCount(count + 1);
-	// }
-
-	// function onClick2() {
-	// 	setDays([
-	// 		...days,
-	// 		{
-	// 			id: Math.random(),
-	// 			day: 1,
-	// 		},
-	// 	]);
-	// }
-
-
-	// const [days, setDays] = useState([]);
-
-	// useEffect(() => {
-	// 	console.log("change");
-
-	// 	fetch('http://localhost:3030/days')
-	// 	.then(res => {
-	// 		return res.json();
-	// 	})
-	// 	.then(data => {
-	// 		setDays(data);
-	// 	});
-
-	// }, []);  // 의존성 배열, 상태값 이후에 딱 한번만 실행할때는 빈배열
 
 	const days : IDay[] = useFetch("http://localhost:3030/days");
 
